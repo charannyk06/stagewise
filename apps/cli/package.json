@@ -20,6 +20,9 @@
   "publishConfig": {
     "access": "public"
   },
+  "dependencies": {
+    "@zed-industries/claude-code-acp": "^0.1.6"
+  },
   "scripts": {
     "build": "dotenv -e ../../.env -- tsx build.ts",
     "dev": "NODE_ENV=development dotenv -e ../../.env -- tsx src/index.ts",
